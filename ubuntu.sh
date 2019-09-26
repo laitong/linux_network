@@ -1,8 +1,4 @@
 #!/bin/bash
-
-
-
-echo -e "\n"
 cd /root
 echo "Start creating Swaps Memory, please wait..."
 dd if=/dev/zero of=/var/swapd bs=1024 count=3145728
